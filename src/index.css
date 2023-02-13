@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .bg-page-gradient {
+    @apply bg-gradient-to-b from-blue-900 to-blue-400
+  }
+  .bg-footer-gradient {
+    @apply bg-gradient-to-t from-purple-500 to-purple-400
+  }
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
